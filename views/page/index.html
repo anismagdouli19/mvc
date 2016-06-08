@@ -1,0 +1,23 @@
+<h1>Page - Index </h1>
+<div class="row">
+   <div class="col-md-12">
+       <?php
+        if (isset($_SESSION['user'])){
+            echo  "Vous etes connecté";
+        }
+    ?>
+   </div>
+</div>
+<div class="row">
+    <div class="col-md-5">
+        <pre>
+
+        <?php foreach ($data["var1"] as $value){?>
+            <li><?= $value["id"] ?></li>
+            <li><?= $value["nom"] ?></li>
+            <li><?= $value["mdp"] ?></li>
+            <?php }?>
+            <?= print_r ($data["var1"]) ?>
+        </pre>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+
+/**
+ * Created by PhpStorm.
+ * User: DEV
+ * Date: 02/05/2016
+ * Author: Anis Magdouli
+ */
+
+
+.debug{
+    margin-top: 100px;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #A0A0A0;
+    width:100%;
+}
+.debug pre{
+    max-height: 350px;
+}
